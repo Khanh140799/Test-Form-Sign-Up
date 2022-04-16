@@ -1,0 +1,93 @@
+.error{
+    display: flex;
+    color: red;
+    text-align: left;
+    margin-left: 12rem;
+    margin-top: 0.5rem;
+}
+.contain{
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 20vh;
+    background-color: azure;
+    position: relative;
+}
+.title_form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+.username,
+.email,
+.password{
+    display: flex;
+    height: 2rem;
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin-left: 2rem;
+}
+.title{
+    width: 10rem;
+    text-align: left;
+    line-height: 2.6;
+    font-size: large;
+    font:
+}
+.input{
+    height: 2rem;
+    width: 40%;
+    padding: 1rem;
+}
+.contain_error{
+    height: 1rem;
+}
+.btn_submit{
+    height: 3rem;
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: bisque;
+    border-radius: 2rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn_submit:hover{
+    background-color: aqua ;
+    cursor: pointer;
+}
+.btn_submit2{
+    height: 3rem;
+    width: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: rgba(136, 132, 132, 0.932);
+    border-radius: 2rem;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.notify{
+    display: flex;
+    height: 50vh;
+    width: 40vw;
+    background-color: aqua;
+    margin: auto;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:xx-large;
+    margin: 25vh 30vw;
+}
+.contain_2{
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 20vh;
+    background-color: azure;
+    position: relative;
+    display: none;
+}
+.notify_2{
+    display: none;
+}
